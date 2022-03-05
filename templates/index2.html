@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextUtils</title>
+</head>
+<body>
+    <!-- <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, nisi exercitationem!</h3>
+    <br>
+    <a href="http://127.0.0.1:8000/removepunc"><button>Next</button></a>
+    <br>
+    <br>
+    {{name}} is from {{place}} --> 
+    
+    <h1>Welcome to the text analyser. Enter your text below</h1>
+    <form action='/analyze' method='get' >
+        <textarea name="text" id="" cols="30" rows="10" spellcheck="false" data-ms-editor="true" style="width: 1820px; height: 191px;"></textarea>
+         <label for="tits">Remove Punctuations</label>
+         <input type="checkbox" name="removepunc" id="tits">  <br>
+         <label for="bits">UPPERCASE</label>
+         <input type="checkbox" name="fullcaps" id="bits"><br>
+         <label for="fits">New Line Remover</label>
+         <input type="checkbox" name="newlineremover" id="fits"><br>
+         <label for="nits">Extra Space Remover</label>
+         <input type="checkbox" name="extraspaceremover" id="nits"><br>
+         <button type="submit">Analyze Text</button>
+    </form>
+</body>
+</html>
